@@ -13,4 +13,4 @@ Usage: Ex -
 python redditbot.py news
 
 --
-Other codes - I leveraged code from pyPushbullet - here : https://github.com/Azelphur/pyPushBullet
+Other codes - I leveraged code for Pushbullet API from pyPushbullet - here : https://github.com/Azelphur/pyPushBullet
