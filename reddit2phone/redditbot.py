@@ -40,7 +40,7 @@ while True:
             p.pushNote(devices[0]["iden"],delivery_text[each_post][0][0] + ' : ' + delivery_text[each_post][0][1], 'Read More - ' + delivery_text[each_post][0][3])
         time.sleep(60)
     if time_counter % 10 == 0:
-        with open('/home/ubuntu/reddit-delivery/news/'+str(time.time())+'.txt','wb') as tf:
+        with open('/home/ubuntu/reddit-delivery/data/'+str(time.time())+'.txt','wb') as tf:
             writer = csv.writer(tf, delimiter = '\t')
             for item in already_delivered.keys():
                 writer.writerow(already_delivered[item])
